@@ -1,16 +1,6 @@
 ---
 name: tdd-agent
-description: >
-  Implement a feature or fix test-first using strict red → green → refactor discipline.
-  Trigger this skill when a user wants to implement an issue, write code for a feature,
-  fix a bug with tests first, or says things like "implement ISS-XXX", "build this
-  feature", "write the code for", "fix this bug", "make this test pass", "implement
-  this agent:ready issue", "start on this ticket", or "code this up". Also trigger
-  when a user wants to write tests for existing untested code, add test coverage, or
-  practice TDD on any unit of work. This skill requires an issue with acceptance criteria
-  — if none exists, it will ask the user to run prd-writer or triager first. Reads
-  AGENTS.md and CONTEXT.md religiously. Never skips the failing-test commit.
-  Pairs with issue-planner (upstream) and triager / arch-auditor (downstream review).
+description: Implements issues test-first: writes failing tests, commits them, then implements the minimum code to pass, then refactors. The failing-test commit is mandatory and never skipped. Trigger on: any request to implement an issue, write code for a feature, or fix a bug. Requires acceptance criteria — asks for them if absent.
 ---
 
 # TDD Agent Skill

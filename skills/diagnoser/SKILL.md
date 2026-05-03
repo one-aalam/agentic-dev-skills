@@ -1,16 +1,6 @@
 ---
 name: diagnoser
-description: >
-  Diagnose bugs, failing tests, errors, and unexpected behaviour in a codebase.
-  Trigger this skill whenever a user reports a bug, a test is failing, something
-  is broken, there is an error or exception, behaviour is wrong or unexpected,
-  or they say things like "figure out what's wrong", "why is this failing",
-  "investigate this", "root cause", "debug this", "something broke", or pastes
-  a stack trace, error log, or failing test output. Also trigger when the user
-  wants to understand *why* something behaves the way it does before fixing it.
-  This skill performs read-only investigation and produces a structured diagnosis
-  report — it never modifies code. Pairs with the triager skill (to open an issue
-  from the diagnosis) and the tdd-agent skill (to implement the fix).
+description: Read-only bug investigation. Forms ranked hypotheses, verifies each with code evidence, and writes a structured diagnosis report to docs/reports/. Trigger on: any bug report, failing test, stack trace, error output, or request to understand why something behaves the way it does. Never modifies code.
 ---
 
 # Diagnoser Skill

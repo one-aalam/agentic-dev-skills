@@ -1,17 +1,6 @@
 ---
 name: project-bootstrap
-description: >
-  Bootstrap any new or existing project with a full agentic knowledge architecture.
-  Trigger this skill whenever a user mentions starting a new project, setting up a repo,
-  "greenfield", "greyfield", wants to add agent-ready structure to an existing codebase,
-  asks about AGENTS.md / CONTEXT.md / agentic project setup, wants to set up issue tracking
-  or triage labels, wants to establish domain docs or ADRs, or says anything like
-  "set up my project for agents", "prepare this repo for Claude Code", "make this repo
-  agentic", "initialise project structure", or "bootstrap this project".
-  Also trigger when users ask how to track issues locally, set up a PRD system, or
-  organise agent prompts. This skill handles the full discovery → confirmation → write
-  → handoff cycle, including detecting whether a GitHub repo or local-only project is
-  present.
+description: Sets up the agentic knowledge layer (AGENTS.md, CONTEXT.md, docs/.agent/, ADRs, label taxonomy) on any new or existing project. Trigger on: greenfield/greyfield setup, making a repo agent-ready, setting up issue tracking or triage labels, or any request to bootstrap, initialise, or prepare a project for AI-assisted development.
 ---
 
 # Project Bootstrap Skill

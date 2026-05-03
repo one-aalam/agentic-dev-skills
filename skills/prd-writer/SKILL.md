@@ -1,18 +1,6 @@
 ---
 name: prd-writer
-description: >
-  Write a Product Requirement Document (PRD) for any feature, product change,
-  or initiative — grounded in the actual codebase and domain context.
-  Trigger this skill when a user wants to define or document a feature before
-  building it, write a PRD, spec out a feature, document requirements, or says
-  things like "write a PRD for", "spec this out", "document the requirements for",
-  "what should we build for", "define this feature", "help me think through",
-  or "plan this feature". Also trigger when a user describes a feature idea in
-  conversation and wants it captured formally. This skill reads CONTEXT.md,
-  existing ADRs, and the codebase structure to write PRDs that are grounded in
-  reality — not generic templates. Outputs BDD acceptance criteria that the
-  issue-planner and tdd-agent skills consume directly. Pairs with issue-planner
-  (downstream) to break the PRD into trackable issues.
+description: Writes codebase-grounded PRDs with BDD acceptance criteria that downstream skills consume directly. Trigger when a user wants to define a feature before building it — from a rough idea, a conversation, or an existing issue. Interviews for missing context, researches the affected codebase area, and flags invariant conflicts before writing.
 ---
 
 # PRD Writer Skill

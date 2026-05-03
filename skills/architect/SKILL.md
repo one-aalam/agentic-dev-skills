@@ -1,21 +1,6 @@
 ---
 name: architect
-description: >
-  Stress-test a plan, design, or idea against the project's existing domain model,
-  documented invariants, ADRs, and architectural decisions — then sharpen its language
-  and write decisions into CONTEXT.md and ADRs as they crystallise during conversation.
-  Trigger this skill when a user wants to think through a design before building it,
-  challenge an approach, check if a plan fits the existing model, get architectural
-  feedback, or says things like "does this design make sense", "stress-test this plan",
-  "review my approach", "challenge this idea", "is this the right architecture",
-  "does this fit our model", "review this design against our decisions", "help me
-  think through the architecture", "is this consistent with our system", "does this
-  violate anything", or "should we use X or Y". Also trigger when a user proposes
-  a new abstraction, introduces new terminology, or makes a significant design choice
-  in conversation and the decision should be captured before it drifts.
-  This skill challenges plans conversationally, sharpens domain language, and writes
-  crystallised decisions to CONTEXT.md and docs/adr/ inline — turning thinking into
-  living documentation. Sits between prd-writer (downstream) and arch-auditor (backward).
+description: Forward-looking design reviewer. Challenges a plan against the project's domain model, invariants, and ADRs — then writes crystallised decisions into CONTEXT.md and docs/adr/ live. Trigger when a user wants to stress-test an approach, resolve a design contest, introduce a new abstraction, or ensure a plan is consistent with documented decisions before any code is written.
 ---
 
 # Architect Skill

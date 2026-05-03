@@ -1,17 +1,6 @@
 ---
 name: triager
-description: >
-  Triage new issues: assign labels, priority, domain, and agent-readiness to any
-  incoming bug report, feature request, chore, or spike. Trigger this skill when
-  a user wants to file a new issue, triage an existing one, label an issue, assess
-  whether an issue is ready for an agent to pick up, clean up a backlog, or says
-  things like "triage this", "file an issue for", "add this to the backlog",
-  "label this bug", "is this agent-ready?", "assess this issue", or "add to issues".
-  Also trigger when a diagnosis report exists and the user wants to turn it into a
-  tracked issue. This skill reads from docs/.agent/labels.md and CONTEXT.md, writes
-  structured issue files to issues/ or prepares GitHub Issues content, and never
-  alters the issue body — only metadata and structure. Pairs with diagnoser (upstream)
-  and issue-planner / tdd-agent (downstream).
+description: Structures and labels issues. Applies the five-dimension label taxonomy from docs/.agent/labels.md and enforces the agent:ready contract. Trigger on: filing a new issue, labelling or triaging an existing one, converting a diagnosis report into a tracked issue, or assessing whether an issue is ready for autonomous agent pickup.
 ---
 
 # Triager Skill

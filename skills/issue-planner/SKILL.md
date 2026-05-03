@@ -1,17 +1,6 @@
 ---
 name: issue-planner
-description: >
-  Break a PRD, large feature, or complex task into atomic, trackable, dependency-ordered
-  issues that humans or agents can pick up independently. Trigger this skill when a user
-  has an approved PRD and wants to create issues from it, wants to break down a large
-  feature into tasks, wants to plan the implementation of something, says things like
-  "break this into issues", "create tasks for this", "plan the implementation",
-  "make this agent-ready", "decompose this feature", "what are the sub-tasks", or
-  "turn this PRD into tickets". Also trigger when a user wants to sequence work,
-  identify dependencies between tasks, or estimate the scope of a feature.
-  This skill reads PRDs and CONTEXT.md, produces structured issue files (or GitHub
-  Issues), identifies inter-issue dependencies, and labels each issue correctly
-  including agent-readiness. Pairs with prd-writer (upstream) and tdd-agent (downstream).
+description: Decomposes a PRD into atomic, dependency-ordered, agent-labelled issues. Trigger when a user has an approved PRD and wants to plan implementation, or asks to break a feature into tasks, tickets, or sub-issues. Shows a sequenced plan with agent-readiness per issue before writing anything. Requires a PRD or will run a brief interview.
 ---
 
 # Issue Planner Skill

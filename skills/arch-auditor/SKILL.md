@@ -1,18 +1,6 @@
 ---
 name: arch-auditor
-description: >
-  Audit the codebase for architectural drift, invariant violations, stale documentation,
-  accumulating technical debt, and missing test coverage. Trigger this skill when a user
-  wants to audit their codebase, check for architectural drift, find technical debt,
-  review code quality, ensure the codebase matches its docs, or says things like
-  "audit the codebase", "check for drift", "review architecture", "find debt",
-  "is the codebase healthy?", "does the code match CONTEXT.md?", "run an audit",
-  "what's the state of the codebase?", or "code quality review". Also trigger on
-  a schedule (weekly / monthly) or after a large merge, significant refactor, or
-  onboarding a new AI agent to the codebase. This skill reads but never modifies code.
-  It produces a structured audit report and opens issues for P1+ findings automatically.
-  Pairs with triager (to label opened issues) and diagnoser (for deep investigation
-  of specific findings).
+description: Backward-looking codebase health check. Reads the codebase against CONTEXT.md invariants and accepted ADRs, scans for doc drift, debt hotspots, and security smells, then writes an audit report and auto-opens P1+ issues. Trigger on: audit requests, post-refactor checks, scheduled reviews, or any question about whether the codebase still matches its documentation.
 ---
 
 # Arch Auditor Skill
