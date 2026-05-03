@@ -137,6 +137,4 @@ arch-auditor
 
 | Date | Change | Author |
 |------|--------|--------|
-| 2025-05-03 | Initial skill library: project-bootstrap + 7 specialist skills | Built in conversation with aftalam |
-| 2025-05-03 | Added architect skill (forward-looking, crystallises decisions to ADRs/CONTEXT.md inline) | Built in conversation with aftalam |
-| 2025-05-03 | Repo created at `agentic-dev-skills`, README.md and CONTEXT.md written | project-bootstrap pattern |
+| 2025-05-03 | Initial skill library: project-bootstrap + 7 specialist skills | one-aalam |
